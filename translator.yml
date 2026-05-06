@@ -1,2 +1,15 @@
 server:
   port: 8071
+spring:
+  data:
+    mongodb:
+      database: "{cipher}9ef34f2615ec0833f2ce2d713a24fd2b93e50c241509f5f41b42e0622039b70f"
+      uri: "{cipher}e229e2cbae8e12bb1665fa0ddb1e9a1de1de192870df3dbe7dd4c0bbb5d4fd51a96ce1c943400f7febdcc9160189e4fe7e7f7e541b345d9327aa6cef7804108dccd5d8e52ca633a0011c7c078bced129"
+#      authentication-database: admin
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
+    org.mongodb.driver: DEBUG
+storage:
+  mainDir: "{cipher}b98ff29c3e695c73f33ddfeeb5dd83fb82dd9cf2409c8baad08e199909e7a01e"
+  fileUrl: "{cipher}db700f58728287933fe0016ea6c2d94f84ce6ccd0d4e7a261131996ac7fb0ad320e7dc1470e83bffb57d863e6523d456"
