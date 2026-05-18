@@ -4,7 +4,8 @@ spring:
   data:
     mongodb:
       # database: "{cipher}9ef34f2615ec0833f2ce2d713a24fd2b93e50c241509f5f41b42e0622039b70f"
-      uri: "{cipher}c3220de18c8a4bb0f1a7ae048f59bd679cf7f614507aa5c4d942850506c4ee65b95cd8e4375057bdd5e2392ffd17f6e0ddd3067390459426f83fe527143cfd3b743e5364b34916cf5bd5d63fb428e4fd"
+      uri: "mongodb://admin:admin@localhost:27018/ai?authSource=admin&retryWrites=true&w=majority"
+# "{cipher}c3220de18c8a4bb0f1a7ae048f59bd679cf7f614507aa5c4d942850506c4ee65b95cd8e4375057bdd5e2392ffd17f6e0ddd3067390459426f83fe527143cfd3b743e5364b34916cf5bd5d63fb428e4fd"
 #      authentication-database: admin
 logging:
   level:
